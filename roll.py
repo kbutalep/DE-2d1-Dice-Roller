@@ -5,3 +5,17 @@
 # roll 3 - produce three numbers and print them.
 #
 
+import random
+
+die_to_roll = int(input("How many dice do you want to roll? 1, 2, or 3?"))
+
+if die_to_roll == 1:
+    print(random.randint(1,6))
+elif die_to_roll == 2:
+    print(random.randint(1,6))
+    print(random.randint(1, 6))
+elif die_to_roll == 3:
+    print(random.randint(1,6))
+    print(random.randint(1, 6))
+    print(random.randint(1, 6))
+
